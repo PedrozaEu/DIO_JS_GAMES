@@ -6,3 +6,126 @@
     font-family: sans-serif;
     font-size: 14px;
 }
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(250,250,250);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ig_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.ig_phones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.ig_phones img{
+    height: 50rem;
+}
+
+.ig_login{
+    display: flex;
+    align-items: center;
+    align-content: space-around;   
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.ig_logo{
+    height: 3rem;
+}
+
+.profile_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_foto img{
+    height: 6rem;
+}
+
+.login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.linkblue{
+    color: #0095f6;
+}
+
+.gettheapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.appdownload{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.appdownload:nth-child(1){
+    background-image: url('/Desafio_Instagram LandingPage - Gabriela Pinheiro/IMG/googleplay-button.png');
+}
+.appdownload:nth-child(2){
+    background-image: url('/Desafio_Instagram LandingPage - Gabriela Pinheiro/IMG/apple-button.png');
+}
+
+/* Set dos dispositivos para responsividade */
+
+/* media querie */
