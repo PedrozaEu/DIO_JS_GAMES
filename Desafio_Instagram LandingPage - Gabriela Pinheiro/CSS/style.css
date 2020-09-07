@@ -54,6 +54,8 @@ body{
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    margin: 0.5rem;
+
 }
 
 .group:nth-child(1){
@@ -129,3 +131,22 @@ body{
 /* Set dos dispositivos para responsividade */
 
 /* media querie */
+
+@media(max-width: 1024px){
+    .ig_wrapper{
+        width: 90%;
+    }
+}
+@media(max-width: 650px){
+    .ig_wrapper{
+        width: 90%;
+    }
+
+    .ig_phones{
+        display: none;
+    }
+    .ig_login{
+        width: 100%;
+    }
+}
+
