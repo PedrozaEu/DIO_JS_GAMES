@@ -155,5 +155,9 @@ body{
     .ig_login{
         width: 100%;
     }
+
+    .group{
+        border: 1px solid transparent;
+    }
 }
 
