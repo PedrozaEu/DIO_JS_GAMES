@@ -122,10 +122,10 @@ body{
 }
 
 .appdownload:nth-child(1){
-    background-image: url('/CloneInstagram/IMG/googleplay-button.png');
+    background-image: url('/Desafio_Instagram LandingPage - Gabriela Pinheiro/IMG/googleplay-button.png');
 }
 .appdownload:nth-child(2){
-    background-image: url('/CloneInstagram/IMG/apple-button.png');
+    background-image: url('/Desafio_Instagram LandingPage - Gabriela Pinheiro/IMG/apple-button.png');
 }
 
 /* Set dos dispositivos para responsividade */
