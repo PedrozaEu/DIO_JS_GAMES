@@ -46,6 +46,11 @@ body{
 }
 
 .group{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +60,7 @@ body{
     padding: 1.3rem 0;
     border: 1px solid lightgray;
     margin: 0.5rem;
+
 
 }
 
@@ -96,6 +102,7 @@ body{
 
 .linkblue{
     color: #0095f6;
+    font-weight: 700;
 }
 
 .gettheapp{
@@ -122,7 +129,8 @@ body{
 }
 
 .appdownload:nth-child(1){
-    background-image: url('/CloneInstagram/IMG/googleplay-button.png')}
+    background-image: url('/CloneInstagram/IMG/googleplay-button.png');
+}
 .appdownload:nth-child(2){
     background-image: url('/CloneInstagram/IMG/apple-button.png');
 }
