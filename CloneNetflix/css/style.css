@@ -93,6 +93,7 @@ header nav a:hover{
     border:none;
     background-color: rgba(0, 0, 0, 0.253);
     color: white;
+    size: 20px 110px;
 
     padding: 20px;
     margin-right: 5%;
