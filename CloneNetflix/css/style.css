@@ -49,10 +49,12 @@ header .container{
 .logo{
     color: #e50914;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+    font-size: 8vh;
 }
 
 header nav a{
+    display: flexbox;
+    font-size: 2vh;
     text-decoration: none;
     color: #aaaaaa;
     margin-right: 10px;
@@ -77,7 +79,7 @@ header nav a:hover{
 
 .game-pricipal .titulo{
     font-size: 40px;
-    font-family: impact;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
